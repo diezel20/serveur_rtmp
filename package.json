@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server_rtmp.js",
   "scripts": {
-    "start": "nodemon server_rtmp.js"
+    "start": "nodemon server_rtmp.js", 
+    "dev": "node server_rtmp.js"
   },
   "keywords": [],
   "author": "",
