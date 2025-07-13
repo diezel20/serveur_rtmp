@@ -1,0 +1,15 @@
+{
+  "name": "server_rtmp_vps_local",
+  "version": "1.0.0",
+  "main": "server_rtmp.js",
+  "scripts": {
+    "start": "nodemon server_rtmp.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Webservice de diffusion en ligne d'un flux video ",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
