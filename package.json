@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server_rtmp.js",
   "scripts": {
-    "start": "nodemon server_rtmp.js", 
+    "start": "nodemon server_rtmp.js",
     "dev": "node server_rtmp.js"
   },
   "keywords": [],
@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "Webservice de diffusion en ligne d'un flux video ",
   "dependencies": {
+    "node-media-server": "^4.0.18",
     "nodemon": "^3.1.10"
   }
 }
